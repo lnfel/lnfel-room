@@ -1,3 +1,16 @@
+GIT
+  remote: https://github.com/cotes2020/jekyll-theme-chirpy.git
+  revision: 940b2810e95065e30600ae8d5e4612e7183da60e
+  branch: master
+  specs:
+    jekyll-theme-chirpy (5.2.1)
+      jekyll (~> 4.1)
+      jekyll-archives (~> 2.2)
+      jekyll-paginate (~> 1.1)
+      jekyll-redirect-from (~> 0.16)
+      jekyll-seo-tag (~> 2.7)
+      jekyll-sitemap (~> 1.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -50,13 +63,6 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
-    jekyll-theme-chirpy (5.2.1)
-      jekyll (~> 4.1)
-      jekyll-archives (~> 2.2)
-      jekyll-paginate (~> 1.1)
-      jekyll-redirect-from (~> 0.16)
-      jekyll-seo-tag (~> 2.7)
-      jekyll-sitemap (~> 1.4)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.4.0)
@@ -82,7 +88,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.5)
-    rouge (3.29.0)
+    rouge (3.30.0)
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -106,7 +112,7 @@ PLATFORMS
 
 DEPENDENCIES
   html-proofer (~> 3.18)
-  jekyll-theme-chirpy (~> 5.2, >= 5.2.1)
+  jekyll-theme-chirpy!
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
