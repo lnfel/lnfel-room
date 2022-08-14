@@ -80,7 +80,10 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+#
+# This is required if using chirpy github as source of gem in Gemfile
+# gem "jekyll-theme-chirpy", git: 'https://github.com/cotes2020/jekyll-theme-chirpy.git', branch: 'master'
+img_cdn: https://raw.githubusercontent.com/lnfel/lnfel.github.io/main
 
 # the avatar on sidebar, support local or CORS resources
 avatar: 'https://avatars.githubusercontent.com/u/47680867?v=4'
